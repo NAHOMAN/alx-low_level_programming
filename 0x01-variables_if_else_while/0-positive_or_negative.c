@@ -5,7 +5,7 @@
 /* more headers goes there */
 /**
  * main - Entry point
- * Description - print whether z no stored in the variable n is positive or negative
+ * Description - print whether the no stored in the variable n is + or -
  * Return: Always 0 (Success)
  */
 
