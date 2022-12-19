@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * rest_to_98 - function that takes a pointer to an int as parameter
  * and update the value it point to 98
