@@ -3,8 +3,7 @@
  * rev_string - function that reverse string.                                                                                         
  * @s: String to reverse                                                                                                              
  * Return: void.                                                                                                                       
- */                                                                                                                                   
-
+ */
 void rev_string(char *s)                                                                                                              
 {
 	int i = 0;
@@ -17,7 +16,7 @@ void rev_string(char *s)
 	while (aux < 1)
 	{
 		ltemp = s[i];
-		s[i] = s [aux];
+		s[i] = s[aux];
 		s[aux] = ltemp;
 		aux++;
 		i--;
