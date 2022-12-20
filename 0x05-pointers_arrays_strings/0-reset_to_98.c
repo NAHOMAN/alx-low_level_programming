@@ -5,7 +5,7 @@
  * and update the value it point to 98
  * @n: this is entry
  */
-void rest_to_98(int *n)
+void reset_to_98(int *n)
 {
 	*n = 98;
 }
