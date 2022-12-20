@@ -4,11 +4,8 @@
  * Return: void
  */
 int _strlen(char *s);
-
 {
-	int i = 0;
-
-	while (s[i])
-		i++;
-	return (i);
+	int index;
+	for (index = 0; s[index] != '\0'; index ++)
+		return (index);
 }
