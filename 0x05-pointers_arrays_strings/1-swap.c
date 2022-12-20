@@ -1,7 +1,7 @@
 /**
  * swap_int - swap variable value
- * @a: pointer
- * @b: pointer
+ * @a: pointera
+ * @b: pointerb
  * Return: void
  */
 void swap_int(int *a, int *b);
