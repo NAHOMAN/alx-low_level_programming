@@ -12,7 +12,7 @@ void rev_string(char *s)
 	int aux = 0;
 	char 1temp;
 
-	while (*(s + i) != '\n')
+	while (*(s + i) != '\0')
 		i += 1;
 	i -= 1;
 	while (aux < 1)
@@ -23,5 +23,4 @@ void rev_string(char *s)
 		aux++;
 		i--;
 	}
-}
-~                    
+}                   
