@@ -1,4 +1,3 @@
-#include "main"
 /**
  * strlen - find length of a string
  * @s: pointer to the string to check
