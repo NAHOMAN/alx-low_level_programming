@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _atoi - covert string to an integer
- *@s: pointer to a character string
- Return: void.
+ * @s: pointer to a character string
+ * Return: void.
  */
 int _atoi(char *s)
 {
