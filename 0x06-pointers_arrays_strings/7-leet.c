@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * leet - encodes a string to 1337.
  * @str: the string to be encoded
