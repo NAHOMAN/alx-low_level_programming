@@ -3,9 +3,9 @@
 /**
  * *_memset - fills the first n byte to the memory area pointed by @s
  * with constant byte @c
- * *s - a pointer to the memory area to be filled
- * b - a character to fill a memory area
- * n - a number of bytes to be filled
+ * s: a pointer to the memory area to be filled
+ * b: a character to fill a memory area
+ * n: a number of bytes to be filled
  * description _memset: over there
  * Return: a pointer to filled a memory area.
  */
