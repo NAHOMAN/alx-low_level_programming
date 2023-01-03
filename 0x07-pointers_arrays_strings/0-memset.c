@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * *_memset - fills the first n byte to the memory area pointed by @s
@@ -18,5 +18,5 @@ char *_memset(char *s, char b, unsigned int n)
 		*(s + i) = b;
 		i++;
 	}
-	return(s);
+	return (s);
 }
