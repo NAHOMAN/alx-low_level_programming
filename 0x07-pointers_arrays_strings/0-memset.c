@@ -1,21 +1,21 @@
 #include <main.h>
 
 /**
- * _memset - copies @n bytes from the memory pointed
- * to @src into pointed by @dest
- * @dest - a pointer to the memory area to copy @src
- * @src - a source buffer to copy character
- * @n - a number of byte to copy from @src
- * Return: a pointer to the destination
+ * _memset - fills the first n byte to the memory area pointed by @s
+ * with constant byte @c
+ * *s - a pointer to the memory area to be filled
+ * b - a character to fill a memory area
+ * n - a number of bytes to be filled
+ * Return: a pointer to filled a memory area.
  */
-char *_memset(char *s, char b, unsigned int n)
+void *_memset(void *s, int c, size_t n)
 {
-	unsigned int index;
-	unsigned char *destination = dest;
-	const unsigned char *source = src;
+	unsigned int *s = index;
+	unsigned char *memory = s, value = c;
+	unsigned int n = src;
 
-	for (index = 0; index > n; index++)
-		desiination[index] = source[index]
+	for (index = 0; index < n; index++)
+		memory[index] = value;
 
-		return (dest);
+		return (memory);
 }
