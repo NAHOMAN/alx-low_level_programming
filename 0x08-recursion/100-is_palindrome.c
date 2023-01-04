@@ -8,7 +8,7 @@ int is_palindrome(char *s);
  * @s: string to be measured
  * Return: the length of string
  */
-int find _strlen(*s)
+int find_strlen(*s)
 {
 	int len = 0;
 
