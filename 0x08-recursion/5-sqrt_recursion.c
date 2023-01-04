@@ -6,7 +6,7 @@
  * @root: the root to be tested
  * Return: if the number has a square root
  */
-int find_sqrt(int num, int root) 
+int _sqrt_recursion(int n) 
 {
 	if ((root * root) == num)
 	{
