@@ -9,6 +9,7 @@ void _puts_recursion(char *s)
 	if (*s)
 	{
 		char(*s);
+
 		_puts_recursion(s + 1);
 	}
 	else
