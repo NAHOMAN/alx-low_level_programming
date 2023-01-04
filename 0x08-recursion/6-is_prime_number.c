@@ -7,7 +7,7 @@
  */
 int is_prime_number(int n)
 {
-	return (check_prime(n,2));
+	return (int);
 }
 /**
  * check_prime - check the number
@@ -22,5 +22,5 @@ int check_prime(int n, int resp)
 	else if (n % resp == 0 || n <= 1)
 		return (0);
 	else
-		return (check_prime);
+		return (int);
 }
