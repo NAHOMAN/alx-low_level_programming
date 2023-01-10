@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * creat_array - array for print to string
+ * create_array - array for print to string
  * @size: number of element array
  * @c: char
  * Return: pointers
