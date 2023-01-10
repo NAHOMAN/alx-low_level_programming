@@ -2,7 +2,7 @@
 
 /**
  * creat_array - array for print to string
- * @size - number of element array
+ * @size: number of element array
  * @c: char
  * Return: pointers
  */
@@ -16,7 +16,7 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 	}
 	/**define a value with malloc*/
-	buffer = (char *) malloc (size * sizeof(c));
+	buffer = (char *) malloc(size * sizeof(c));
 
 	if (buffer == 0)
 	{
