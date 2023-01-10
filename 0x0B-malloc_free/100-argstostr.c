@@ -13,7 +13,7 @@ char *argstostr(int ac, char **av)
 
 	if (ac == 0 || av == NULL)
 		return (NULL);
-	while (av < ac)
+	while (a < ac)
 	{
 		b = 0;
 		while (av[a][b] != '\0')
