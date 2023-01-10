@@ -5,7 +5,7 @@
  * @s: array of element
  * Return: 1
  */
-int _strlen(char s)
+int _strlen(char *s)
 {
 	unsigned int i;
 
@@ -28,9 +28,9 @@ char *_strcpy(char *dest, char *str)
 {
 	int i = 0;
 
-	while (src[i] != '\0')
+	while (str[i] != '\0')
 	{
-		dest[i] = src[i];
+		dest[i] = str[i];
 		i++;
 	}
 	dest[i] = '\0';
