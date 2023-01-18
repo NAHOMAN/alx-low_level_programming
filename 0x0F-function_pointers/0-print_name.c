@@ -10,8 +10,8 @@
 
 void print_name(char *name, void (*f)(char *))
 {
-	(name == NULL || f == NULL)
+	if (!name || !f)
 		return;
 
-	printf(name);
+	f(name);
 }
